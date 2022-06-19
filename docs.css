@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 14pt;
+}
+
+a:hover{
+    color:  black;
+}
+
+.tags{
+    margin: 0px 180px 0px 180px;
+    padding-top: 10px;
+
+}
+
+.tags:hover{
+    border-bottom: 2px solid blue;
+}
+
+.all{
+    display:flex ;
+    flex-direction: column;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 2px white ;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color:blue;
+}
+
+h1{
+    font-size: 32pt;
+    color: blue;
+}
+
+.docs{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    text-align: left;
+
+    
+}
+
+.p{
+    font-size: 24pt;
+    color: blue;
+}
+
+.space{
+    margin-top: 50px;
+}

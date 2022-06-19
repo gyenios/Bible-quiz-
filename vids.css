@@ -1,0 +1,52 @@
+body{
+    background-image: url("./gyenios.jfif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 14pt;
+    background-color: white;
+
+}
+
+.tags{
+    margin: 0px 180px 0px 180px;
+    padding-top: 10px;
+
+}
+
+.tags:hover{
+    border-bottom: 2px solid black;
+}
+
+.all{
+    display:flex ;
+    flex-direction: column;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 2px black ;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.ind{
+    margin-top: 50px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.vid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
